@@ -1,0 +1,61 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+        <a href="/">
+            <img class="logo" src="../assets/icons/logo-white.svg" alt="Logo" />
+        </a>
+        <span class="example-spacer"></span>
+        <button mat-icon-button class="menu-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+      </button>
+    </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-sidenav-container>
+    <mat-sidenav #sidenav position="end">
+        <mat-nav-list>
+            <li>
+                <a mat-list-item routerLink="/home">
+                    <i class="nav-item-icon home-icon icon-block"></i>
+                    <span class="nav-item-text" mat-list-item routerLink="/home">Home</span>
+                </a>
+            </li>
+            <li>
+                <a mat-list-item routerLink="/cerca">
+                    <i class="nav-item-icon home-icon icon-block"></i>
+                    <span class="nav-item-text" mat-list-item routerLink="/home">Cerca punto</span>
+                </a>
+            </li>
+            <li>
+                <a mat-list-item routerLink="/imieipass">
+                    <i class="nav-item-icon home-icon icon-block"></i>
+                    <span class="nav-item-text" mat-list-item routerLink="/home">I miei pass</span>
+                </a>
+            </li>
+
+            <li>
+                <a mat-list-item routerLink="/lemiepromo">
+                    <i class="nav-item-icon home-icon icon-block"></i>
+                    <span class="nav-item-text" mat-list-item routerLink="/home">Le mie promo</span>
+                </a>
+            </li>
+            <li>
+                <a mat-list-item routerLink="/comefunziona">
+                    <i class="nav-item-icon home-icon icon-block"></i>
+                    <span class="nav-item-text" mat-list-item routerLink="/home"> Come funziona</span>
+                </a>
+            </li>
+            <li>
+                <a mat-list-item routerLink="/">
+                    <i class="nav-item-icon home-icon icon-block"></i>
+                    <span class="nav-item-text" mat-list-item routerLink="/home">Esci</span>
+                </a>
+            </li>
+
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <div style="height: 90vh;">
+            <router-outlet></router-outlet>
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>

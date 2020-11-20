@@ -1,0 +1,47 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.logo {
+    width: 6rem
+}
+
+.menu-icon {
+    color: var(--verde)
+}
+
+mat-sidenav {
+    width: 15rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav-menu>li .nav-item-icon {
+    left: -2.5rem;
+    position: absolute;
+    top: 50%;
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+.nav-menu>li>a {
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    color: #35424a;
+    display: block;
+    position: relative;
+    transition: 350ms ease-in-out;
+}
+
+.home-icon {
+    background-image: url(../../../assets/menuicons/home.svg);
+    width: 2rem;
+    height: 2rem;
+    padding: 0.5rem;
+    margin-right: 10px;
+}
