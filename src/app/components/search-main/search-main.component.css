@@ -1,0 +1,18 @@
+.page-section {
+    width: 60%;
+    margin: 0 auto;
+    padding: 2rem;
+    margin-top: 50px;
+}
+
+.tab-navigation {
+    text-align: center;
+}
+
+.tab-head {
+    text-align: center
+}
+
+mat-form-field {
+    width: 100%
+}

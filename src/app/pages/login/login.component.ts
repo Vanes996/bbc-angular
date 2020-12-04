@@ -12,8 +12,4 @@ export class Login implements OnInit {
   ngOnInit(): void {
   }
 
-  funzione() : void {
-    console.log("Ciao")
-  }
-
 }

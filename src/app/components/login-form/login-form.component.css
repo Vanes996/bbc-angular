@@ -1,0 +1,33 @@
+.login-form {
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.login-row {
+    display: block;
+    padding-bottom: 1rem;
+    width: 100%;
+}
+
+.btn {
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    display: block;
+    width: 100%;
+    line-height: 1;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    position: relative;
+    text-transform: uppercase;
+    transition: 350ms ease-in-out;
+    border-radius: .35rem;
+    box-shadow: 0 0.4rem 0.7rem rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 0.4rem 0.7rem rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0.4rem 0.7rem rgba(0, 0, 0, 0.1);
+}
+
+.btn.btn-primary {
+    background-color: #95c11f;
+}
