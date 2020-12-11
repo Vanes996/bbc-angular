@@ -8,13 +8,11 @@ import {MatFormFieldModule} from '@angular/material/form-field';
   styleUrls: ['./search-main.component.css']
 })
 export class SearchMainComponent implements OnInit {
+   comuni = ["ciao"]
 
-  comuni  = new FormControl('');
-  categorie = new FormControl('');
   constructor() { }
 
   ngOnInit(): void {
-
   }
 
 }
