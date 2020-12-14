@@ -1,7 +1,7 @@
 name: Build angular project
 
 on:
-  push
+  push:
     branches: ['master']
 
 jobs:
